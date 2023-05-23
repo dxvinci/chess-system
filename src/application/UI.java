@@ -8,6 +8,10 @@ import java.util.Scanner;
 
 public class UI {
 
+    public static void newLine() {
+        System.out.printf("\n---------*--------- \n\n");
+    }
+
     public static ChessPosition readChessPosition (Scanner sc) {
         try {
             String s = sc.nextLine();
