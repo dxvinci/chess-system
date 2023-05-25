@@ -102,7 +102,7 @@ public class ChessMatch {
         placeNewPiece('g', 2, new Pawn(board, Color.WHITE));
         placeNewPiece('h', 2, new Pawn(board, Color.WHITE));
 
-        placeNewPiece('d', 5, new Rook(board, Color.WHITE));
+        placeNewPiece('d', 5, new King(board, Color.WHITE));
 
     }
 
